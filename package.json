@@ -1,6 +1,6 @@
 {
 	"name": "nuxt-favicons",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"description": "Nuxt Favicon Module",
 	"repository": "https://github.com/silvandiepen/nuxt-favicons",
@@ -9,7 +9,7 @@
 	"scripts": {
 		"dev": "NODE_ENV=production nuxt test/fixture",
 		"lint": "eslint lib test",
-		"release": "yarn lint && yarn test && standard-version",
+		"release": "npm run lint && npm run test && standard-version",
 		"test": "nyc jest test"
 	},
 	"files": [
@@ -33,20 +33,15 @@
 		"babel-eslint": "^10.0.3",
 		"babel-jest": "^24.9.0",
 		"eslint": "^6.2.2",
-		"eslint-config-standard": "^14.0.1",
-		"eslint-config-standard-jsx": "^8.0.1",
-		"eslint-plugin-import": "^2.18.2",
-		"eslint-plugin-jest": "^22.15.2",
-		"eslint-plugin-node": "^9.1.0",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-react": "^7.14.3",
-		"eslint-plugin-standard": "^4.0.1",
-		"eslint-plugin-vue": "^5.2.3",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-plugin-nuxt": ">=0.4.2",
+		"eslint-plugin-prettier": "^3.1.2",
 		"get-port": "^5.0.0",
 		"glob": "^7.1.4",
 		"jest": "^24.9.0",
 		"nuxt": "^2.9.1",
 		"nyc": "^14.1.1",
+		"prettier": "^2.0.2",
 		"standard-version": "^7.0.0"
 	}
 }
