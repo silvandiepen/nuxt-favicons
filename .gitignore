@@ -1,0 +1,8 @@
+.nuxt
+.nyc_output
+coverage
+node_modules
+package-lock.json
+test/fixture/static/icons
+test/fixture/static/favicon.ico
+
